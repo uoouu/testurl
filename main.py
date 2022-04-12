@@ -13,6 +13,7 @@ def  rer():
     print(gg.text)
 
 while True:
+    time.sleep(5)
     print("BOT IS RUNNNN ")
     rer()
 

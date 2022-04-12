@@ -2,7 +2,7 @@ from flask import Flask,redirect,request
 import time,requests
 
 
-timeo = '4:10'
+timeo = '7:10'
 timenh = time.strftime('%I')
 timenh = int(timenh)+3
 timenm = time.strftime('%M')
@@ -20,5 +20,5 @@ def red():
 def tt():
     return('Bot start at '+timeo+'<br/><br/>'+'time now is '+ttt)
 
-
-app.run()
+if __name__ == '__main__':
+    app.run()

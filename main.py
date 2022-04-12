@@ -13,13 +13,6 @@ def  rer():
     print(gg.text)
 
 while True:
-    time.sleep(1)
-    gad +=1
-    print("BOT IS RUNNNN "+gad)
-    if gad >= 60:
-        rer()
-        gad = 0
-    else:
-        pass
+    print("BOT IS RUNNNN ")
+    rer()
 
-    

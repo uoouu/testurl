@@ -12,7 +12,7 @@ def red():
 @app.route("/get-time", methods=['GET'])
 
 def tt():
-    timeo = '04:09'
+    timeo = '4:09'
     timenh = time.strftime('%I')
     timenh = int(timenh)+3
     timenm = time.strftime('%M')

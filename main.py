@@ -1,7 +1,7 @@
 import time,requests
 
 
-timeo = '7:30'
+timeo = '7:40'
 timenh = time.strftime('%I')
 timenh = int(timenh)+3
 timenm = time.strftime('%M')

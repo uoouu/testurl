@@ -12,9 +12,12 @@ def red():
 @app.route("/get-time", methods=['GET'])
 
 def tt():
-    timeo = '12:57'
-    timen = time.strftime('%I:%M')
-    return('Bot start at '+timeo+'<br/><br/>'+'time now is '+timen)
+    timeo = '04:09'
+    timenh = time.strftime('%I')
+    timenh = int(timenh)+3
+    timenm = time.strftime('%M')
+    ttt = f'{timenh}:{timenm}'
+    return('Bot start at '+timeo+'<br/><br/>'+'time now is '+ttt)
 
 if __name__ == '__main__':
 	app.run()

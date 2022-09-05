@@ -1,0 +1,26 @@
+import requests,random
+
+def Clo():
+	A="\033[1;33m"
+
+	B="\033[1;31m"
+	
+	C="\033[1;32m"
+	
+	D="\033[1;34m"
+	
+	F="\033[1;35m"
+	
+	G="\033[1;37m"
+	
+	H="\033[1;30m"
+	
+	All = A,B,C,D,F,G,H
+	Cloer = random.choice(All)
+	return(Cloer)
+
+r = requests.get
+
+Def = r('https://ktweet.trakosdiaa1.repl.co/ktw').text
+
+print('\n\n\n'+Clo()+Def+'\n\n\n')
